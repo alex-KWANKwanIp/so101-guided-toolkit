@@ -1,0 +1,18 @@
+# personal settings and hardware ids
+config.json
+skills.json
+skills.json.bak
+intents.json
+registry_history.csv
+99-so101.rules
+
+# generated data (images of your lab, logs, results)
+scene_refs/
+scene_checks/
+placement/
+eval_results/
+skill_logs/
+
+__pycache__/
+*.pyc
+*.bak*

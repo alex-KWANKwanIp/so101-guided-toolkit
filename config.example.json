@@ -1,0 +1,30 @@
+{
+  "_comment": "Copy to config.json and edit. Only keep the keys you need to change. See config.py for what each key means.",
+  "hf_user": null,
+  "robot": {
+    "type": "so101_follower",
+    "port": "/dev/serial/by-id/usb-1a86_USB_Single_Serial_XXXXXXXXXX-if00",
+    "id": "follower01"
+  },
+  "teleop": {
+    "type": "so101_leader",
+    "port": "/dev/serial/by-id/usb-1a86_USB_Single_Serial_YYYYYYYYYY-if00",
+    "id": "leader01"
+  },
+  "cameras": {
+    "front": "/dev/v4l/by-id/usb-YOUR_FRONT_CAMERA-video-index0",
+    "wrist": "/dev/v4l/by-id/usb-YOUR_WRIST_CAMERA-video-index0",
+    "width": 640,
+    "height": 480,
+    "fps": 30,
+    "fourcc": "MJPG"
+  },
+  "policy_device": null,
+  "default_task": "Pick up the cube and place it in the box",
+  "layout": {
+    "box_right_x": 345,
+    "px_per_cm": 12.0
+  },
+  "reference_dataset": null,
+  "positions_file": null
+}

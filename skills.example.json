@@ -1,0 +1,15 @@
+{
+  "_comment": "Skills are added by register_skill.py (it creates skills.json). The robot section is optional: by default the robot and cameras come from config.json.",
+  "skills": {
+    "pick_cube_to_box": {
+      "description": "Pick the cube up and put it in the box",
+      "policy_path": "~/outputs/train/my_smolvla/checkpoints/040000/pretrained_model",
+      "task": "Pick up the cube and place it in the box",
+      "max_duration_s": 90,
+      "rollout_args": [
+        "--inference.type=rtc",
+        "--rename_map={\"observation.images.front\": \"observation.images.camera1\", \"observation.images.wrist\": \"observation.images.camera2\"}"
+      ]
+    }
+  }
+}

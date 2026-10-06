@@ -1,0 +1,7 @@
+{
+  "_comment": "macOS example: copy to config.json. Ports from `lerobot-find-port`, camera indices from `lerobot-find-cameras opencv`.",
+  "robot": {"port": "/dev/tty.usbmodemXXXXXXXX"},
+  "teleop": {"port": "/dev/tty.usbmodemYYYYYYYY"},
+  "cameras": {"front": 1, "wrist": 2, "fourcc": null},
+  "policy_device": "mps"
+}
