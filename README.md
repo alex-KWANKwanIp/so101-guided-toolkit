@@ -44,7 +44,7 @@ Imitation policies (ACT, SmolVLA, π0.5...) learn *where things are in the camer
 ## Setup
 
 ```bash
-git clone https://github.com/<you>/so101-guided-toolkit.git
+git clone https://github.com/alex-KWANKwanIp/so101-guided-toolkit.git
 cd so101-guided-toolkit
 cp config.example.json config.json      # macOS: cp config.example.mac.json config.json
 ```
